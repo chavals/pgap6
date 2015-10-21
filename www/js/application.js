@@ -94,7 +94,7 @@ var Application = {
                   $post
                      .append($('<h2>').text(items[i].title))
                      .append($('<h3>').html('<a href="' + items[i].link + '" target="_blank">' + items[i].title + '</a>')) // Add title
-                     .append($('<p>').html(items[i].contentSnippet)) // Add description
+                     .append($('<p>').html(items[i].content)) // Add description
                      .append($('<p>').text('Author: ' + items[i].author))
                      .append(
                         $('<a href="' + items[i].link + '" target="_blank" data-role="button">')
